@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+import subprocess
+
+cmd=['rfcomm', 'connect', '<FC:A8:9A:9B:33:C1>', '1']
+
+for i in range(0, 1001):
+subprocess.call(cmd)
+TG chanel @social_engineering
+print('Connecting...')
